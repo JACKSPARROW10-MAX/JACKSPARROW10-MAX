@@ -254,10 +254,6 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
-### 🎵 Currently Vibing To
-
-[![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/user/prathameshsalokhe)
-
 </div>
 
 ---
@@ -271,5 +267,6 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
 
