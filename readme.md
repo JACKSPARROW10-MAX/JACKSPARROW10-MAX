@@ -98,6 +98,14 @@ print(me.life_philosophy())
 
 ---
 
+<div align="center">
+  
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="700">
+
+</div>
+
+---
+
 ## 📊 GitHub Statistics
 
 <div align="center">
@@ -117,6 +125,14 @@ print(me.life_philosophy())
 <div align="center">
   
 ![](https://github-profile-trophy.vercel.app/?username=JACKSPARROW10-MAX&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7)
+
+</div>
+
+---
+
+<div align="center">
+  
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
 
 </div>
 
@@ -159,18 +175,40 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 
 ---
 
+<div align="center">
+  
+<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
+
+</div>
+
+---
+
 ## 💼 Technical Proficiency
 
 <div align="center">
+
+<table>
+<tr>
+<td align="center" width="50%">
 ```text
 🤖 Machine Learning    ███████████████████░░   90%
 🐍 Python              ████████████████████░   95%
 📊 Data Science        ██████████████████░░░   85%
 ☕ Java & DSA          ███████████████████░░   90%
+```
+
+</td>
+<td align="center" width="50%">
+```text
 ☁️  Cloud Platforms    ██████████████░░░░░░░   70%
 ⚛️  Full Stack Dev     ████████████████░░░░░   75%
 📱 Android Dev         ███████████████░░░░░░   70%
+🔧 DevOps & Tools      ███████████████░░░░░░   75%
 ```
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -180,7 +218,15 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 
 <div align="center">
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/JACKSPARROW10?theme=dark&font=Fira%20Code&ext=heatmap)
+![LeetCode Stats](https://leetcard.jacoblin.cool/Prathamesh_10_2005?theme=dark&font=Fira%20Code&ext=heatmap)
+
+</div>
+
+---
+
+<div align="center">
+  
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
 </div>
 
@@ -201,6 +247,9 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 </a>
 <a href="https://github.com/JACKSPARROW10-MAX" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://leetcode.com/u/Prathamesh_10_2005/" target="_blank">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/>
 </a>
 <a href="https://your-portfolio-link.com" target="_blank">
   <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
@@ -229,8 +278,6 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling"/>
 
 **✨ "First, solve the problem. Then, write the code." – John Johnson**
-
-<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
