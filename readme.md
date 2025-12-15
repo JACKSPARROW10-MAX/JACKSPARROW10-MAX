@@ -162,17 +162,6 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 
 **Tech:** Python, Firebase, TensorFlow, Flutter  
 **Focus:** Productivity enhancement, habit tracking, data visualization
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-  
-[![Prathamesh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=JACKSPARROW10-MAX&theme=tokyo-night&hide_border=true&bg_color=0D1117)](https://github.com/JACKSPARROW10-MAX)
-
-</div>
-
 ---
 
 <div align="center">
@@ -282,4 +271,5 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
