@@ -122,11 +122,13 @@ print(me.life_philosophy())
 
 ## 🏆 GitHub Achievements
 
-<div align="center">
-  
-![](https://github-profile-trophy.vercel.app/?username=JACKSPARROW10-MAX&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7)
+<p align="center">
+  <img 
+    src="https://github-profile-trophy.vercel.app/?username=JACKSPARROW10-MAX&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7&cache_seconds=1800" 
+    alt="GitHub Trophies"
+  />
+</p>
 
-</div>
 
 ---
 
@@ -267,6 +269,7 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
 
 
