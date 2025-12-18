@@ -153,19 +153,6 @@ print(me.life_philosophy())
 
 </div>
 
-### 🌟 RuralGirls Empowerment Platform
-A technology-driven platform designed to empower rural girls through education, skill development, and community support. Built with modern frameworks and cloud infrastructure, this project demonstrates how technology can drive social change and create meaningful impact in underserved communities.
-
-**Tech:** React, Supabase, AWS, Streamlit  
-**Impact:** Education accessibility, skill development, community building
-
-### 📋 Tracklyst
-An intelligent productivity tracking system that helps users organize tasks, monitor progress, and achieve goals efficiently. Features real-time analytics, smart notifications, and an intuitive interface designed for real-world usability and consistent daily engagement.
-
-**Tech:** Python, Firebase, TensorFlow, Flutter  
-**Focus:** Productivity enhancement, habit tracking, data visualization
----
-
 <div align="center">
   
 <img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
@@ -269,6 +256,7 @@ An intelligent productivity tracking system that helps users organize tasks, mon
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
 
 
