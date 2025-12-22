@@ -118,46 +118,8 @@ print(me.life_philosophy())
 
 </div>
 
----
+--
 
-## 🏆 GitHub Achievements
-
-<p align="center">
-  <img 
-    src="https://github-profile-trophy.vercel.app/?username=JACKSPARROW10-MAX&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7&cache_seconds=1800" 
-    alt="GitHub Trophies"
-  />
-</p>
-
-
----
-
-<div align="center">
-  
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="400">
-
-</div>
-
----
-
-## 🎯 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/JACKSPARROW10-MAX/RuralGirls_Empowerment_Platform">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=JACKSPARROW10-MAX&repo=RuralGirls_Empowerment_Platform&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-<a href="https://github.com/moon-chm/tracklyst">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=moon-chm&repo=tracklyst&theme=tokyonight&hide_border=true&bg_color=0D1117" />
-</a>
-
-</div>
-
-<div align="center">
-  
-<img src="https://user-images.githubusercontent.com/74038190/212257454-16e3712e-945a-4ca2-b238-408ad0bf87e6.gif" width="100"><img src="https://user-images.githubusercontent.com/74038190/212257472-08e52665-c503-4bd9-aa20-f5a4dae769b5.gif" width="100">
-
-</div>
 
 ---
 
@@ -256,6 +218,7 @@ print(me.life_philosophy())
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
 
 
