@@ -8,65 +8,24 @@
 
 </div>
 
----
-
-## 🚀 About Me
-```python
-class PrathameshSalokhe:
-    def __init__(self):
-        self.username = "JACKSPARROW10-MAX"
-        self.role = "AI & Data Science Student"
-        self.location = "Ichalkaranji, Kolhapur, Maharashtra, India"
-        self.mission = "Building intelligent solutions that create real-world impact"
-        self.passions = ["Machine Learning", "Data Science", "Cloud Computing", "Full Stack"]
-        
-    def current_focus(self):
-        return [
-            "Mastering Data Structures & Algorithms",
-            "Android App Development",
-            "Generative AI & Deep Learning",
-            "Cloud Architecture (AWS/Azure/GCP)"
-        ]
-    
-    def life_philosophy(self):
-        return "Transform ideas into intelligent solutions that matter"
-
-me = PrathameshSalokhe()
-print(me.life_philosophy())
-```
-
-<div align="center">
-
-### 💡 What Drives Me
-
+<div align="left">
+  <ul>
+    <li>👋 <strong>Name:</strong> Prathamesh Salokhe (<code>JACKSPARROW10-MAX</code>)</li>
+    <li>🎓 <strong>Role:</strong> AI & Data Science Student</li>
+    <li>📍 <strong>Location:</strong> Ichalkaranji, Kolhapur, Maharashtra, India</li>
+    <li>🎯 <strong>Mission:</strong> Building intelligent solutions that create real-world impact</li>
+    <li>❤️ <strong>Passions:</strong> Machine Learning, Data Science, Cloud Computing, Full Stack Development</li>
+    <li>🔥 <strong>Current Focus:</strong>
+      <ul>
+        <li>🧠 Data Structures & Algorithms</li>
+        <li>📱 Android App Development</li>
+        <li>🤯 Generative AI & Deep Learning</li>
+        <li>☁️ Cloud Architecture (AWS, Azure, GCP)</li>
+      </ul>
+    </li>
+    <li>🧭 <strong>Life Philosophy:</strong> Transform ideas into intelligent solutions that matter</li>
+  </ul>
 </div>
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-#### 🔭 Building & Learning
-- 🤖 AI-powered applications
-- 📊 Data-driven decision systems
-- 📱 Mobile solutions with real impact
-- ☁️ Scalable cloud architectures
-- 🌐 Full-stack intelligent apps
-
-</td>
-<td width="50%" valign="top">
-
-#### 🌱 Current Journey
-- 🧠 Advanced ML/DL techniques
-- 📈 Competitive programming (DSA)
-- 🚀 Generative AI & LLMs
-- 🔧 DevOps & MLOps practices
-- 💻 System design patterns
-
-</td>
-</tr>
-</table>
-
----
 
 ## 🛠️ Technology Stack
 
@@ -104,53 +63,6 @@ print(me.life_philosophy())
 
 </div>
 
----
-
-## 📊 GitHub Statistics
-
-<div align="center">
-  
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=JACKSPARROW10-MAX&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=C9D1D9&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=JACKSPARROW10-MAX&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=FF6B6B&currStreakLabel=00D9FF" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JACKSPARROW10-MAX&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=C9D1D9" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=JACKSPARROW10-MAX&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" />
-
-</div>
-
---
-
-
----
-
-## 💼 Technical Proficiency
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="50%">
-```text
-🤖 Machine Learning    ███████████████████░░   90%
-🐍 Python              ████████████████████░   95%
-📊 Data Science        ██████████████████░░░   85%
-☕ Java & DSA          ███████████████████░░   90%
-```
-
-</td>
-<td align="center" width="50%">
-```text
-☁️  Cloud Platforms    ██████████████░░░░░░░   70%
-⚛️  Full Stack Dev     ████████████████░░░░░   75%
-📱 Android Dev         ███████████████░░░░░░   70%
-🔧 DevOps & Tools      ███████████████░░░░░░   75%
-```
-
-</td>
-</tr>
-</table>
-
-</div>
 
 ---
 
