@@ -7,25 +7,29 @@
 <img src="https://komarev.com/ghpvc/?username=JACKSPARROW10-MAX&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
 
 </div>
-<div style="display: flex; align-items: center; justify-content: space-between;">
-  <div style="width: 80%;">
-    👋 <strong>Name:</strong> Prathamesh Salokhe (<code>JACKSPARROW10-MAX</code>)<br>
-    🎓 <strong>Role:</strong> AI & Data Science Student<br>
-    📍 <strong>Location:</strong> Ichalkaranji, Kolhapur, Maharashtra, India<br>
-    🎯 <strong>Mission:</strong> Building intelligent solutions that create real-world impact<br>
-    ❤️ <strong>Passions:</strong> Machine Learning, Data Science, Cloud Computing, Full Stack Development<br>
-    🔥 <strong>Current Focus:</strong><br>
-    • 🧠 Data Structures & Algorithms<br>
-    • 📱 Android App Development<br>
-    • 🤯 Generative AI & Deep Learning<br>
-    • ☁️ Cloud Architecture (AWS, Azure, GCP)<br>
-    🧭 <strong>Life Philosophy:</strong> Transform ideas into intelligent solutions that matter
-  </div>
+<table width="100%">
+  <tr>
+    <!-- Left Column -->
+    <td width="85%" valign="top">
+      👋 <strong>Name:</strong> Prathamesh Salokhe (<code>JACKSPARROW10-MAX</code>)<br>
+      🎓 <strong>Role:</strong> AI & Data Science Student<br>
+      📍 <strong>Location:</strong> Ichalkaranji, Kolhapur, Maharashtra, India<br>
+      🎯 <strong>Mission:</strong> Building intelligent solutions that create real-world impact<br>
+      ❤️ <strong>Passions:</strong> Machine Learning, Data Science, Cloud Computing, Full Stack Development<br><br>
+      🔥 <strong>Current Focus:</strong><br>
+      • 🧠 Data Structures & Algorithms<br>
+      • 📱 Android App Development<br>
+      • 🤯 Generative AI & Deep Learning<br>
+      • ☁️ Cloud Architecture (AWS, Azure, GCP)<br><br>
+      🧭 <strong>Life Philosophy:</strong> Transform ideas into intelligent solutions that matter
+    </td>
+    <td width="15%" align="right" valign="top">
+      <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32" alt="Hi">
+      
+    </td>
+  </tr>
+</table>
 
-  <div style="width: 20%; text-align: right;">
-    <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32" alt="Hi GIF">
-  </div>
-</div>
 
 ## 🛠️ Technology Stack
 
@@ -130,6 +134,7 @@
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
 
 
