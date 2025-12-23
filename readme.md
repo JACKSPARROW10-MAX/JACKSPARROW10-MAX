@@ -1,7 +1,7 @@
 <div align="center">
   
 # 👋 Hello, I'm [Prathamesh Salokhe](https://www.linkedin.com/in/prathamesh-salokhe-292791293)
-
+ <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32" alt="Hi">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=AI+%26+Data+Science+Enthusiast;Problem+Solver+%26+Builder;Machine+Learning+Developer;Creating+Impact+Through+Code" alt="Typing SVG" />
 
 <img src="https://komarev.com/ghpvc/?username=JACKSPARROW10-MAX&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
@@ -10,7 +10,7 @@
 <table width="100%">
   <tr>
     <!-- Left Column -->
-    <td width="85%" valign="top">
+    <td width="75%" valign="top">
       👋 <strong>Name:</strong> Prathamesh Salokhe (<code>JACKSPARROW10-MAX</code>)<br>
       🎓 <strong>Role:</strong> AI & Data Science Student<br>
       📍 <strong>Location:</strong> Ichalkaranji, Kolhapur, Maharashtra, India<br>
@@ -23,9 +23,9 @@
       • ☁️ Cloud Architecture (AWS, Azure, GCP)<br><br>
       🧭 <strong>Life Philosophy:</strong> Transform ideas into intelligent solutions that matter
     </td>
-    <td width="15%" align="right" valign="top">
-      <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32" alt="Hi">
-      
+    <td width="25%" align="right" valign="top">
+      <h1></h1>
+       <img src="https://github.com/blackcater/blackcater/raw/main/images/banner.gif" height="200"="20"/>
     </td>
   </tr>
 </table>
@@ -70,13 +70,24 @@
 
 ---
 
-## 🎮 LeetCode Stats
+<table width="100%">
+  <tr>
+    <!-- Left Column -->
+    <td width="50%" align="center">
+      Github Stats :
+      <img src="https://github-readme-stats.vercel.app/api?username=JACKSPARROW10-MAX&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1"
+           height="300"
+           alt="GitHub Stats" />
+    </td>
+    <!-- Right Column -->
+    <td width="50%" align="center">
+      Leetcode Stats :
+      <img src="https://leetcard.jacoblin.cool/Prathamesh_10_2005?theme=dark&font=Fira%20Code&ext=heatmap"
+           alt="LeetCode Stats" />
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-
-![LeetCode Stats](https://leetcard.jacoblin.cool/Prathamesh_10_2005?theme=dark&font=Fira%20Code&ext=heatmap)
-
-</div>
 
 ---
 
@@ -134,6 +145,7 @@
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
 
 
