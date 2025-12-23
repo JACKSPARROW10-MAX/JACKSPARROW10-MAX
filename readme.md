@@ -10,7 +10,7 @@
 <table width="100%">
   <tr>
     <!-- Left Column -->
-    <td width="75%" valign="top">
+    <td width="70%" valign="top">
       👋 <strong>Name:</strong> Prathamesh Salokhe (<code>JACKSPARROW10-MAX</code>)<br>
       🎓 <strong>Role:</strong> AI & Data Science Student<br>
       📍 <strong>Location:</strong> Ichalkaranji, Kolhapur, Maharashtra, India<br>
@@ -23,9 +23,11 @@
       • ☁️ Cloud Architecture (AWS, Azure, GCP)<br><br>
       🧭 <strong>Life Philosophy:</strong> Transform ideas into intelligent solutions that matter
     </td>
-    <td width="25%" align="right" valign="top">
-      <h1></h1>
-       <img src="https://github.com/blackcater/blackcater/raw/main/images/banner.gif" height="200"="20"/>
+    <td width="30%" align="right" valign="top">
+      <br>
+      <br>
+      <br>
+       <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDQ1bGp0dWxyM3drdDJmMGFtMGhiNXFvYXo0MGxxdGNqbXJrdm91ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11KzOet1ElBDz2/giphy.gif" height="350"/>
     </td>
   </tr>
 </table>
@@ -145,6 +147,7 @@
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
 
 
