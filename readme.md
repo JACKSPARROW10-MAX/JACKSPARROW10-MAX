@@ -25,9 +25,7 @@
     </td>
     <td width="30%" align="right" valign="top">
       <br>
-      <br>
-      <br>
-       <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeDQ1bGp0dWxyM3drdDJmMGFtMGhiNXFvYXo0MGxxdGNqbXJrdm91ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11KzOet1ElBDz2/giphy.gif" height="350"/>
+       <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWdneWxiaXY1enZ5d211NTB1OHN2Z3p0c3M5NHhsMWdoOGRmdzVydCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LvtxIRg1Ly96E/giphy.gif" height="350"/>
     </td>
   </tr>
 </table>
@@ -147,6 +145,7 @@
 *⭐️ From [JACKSPARROW10-MAX](https://github.com/JACKSPARROW10-MAX) with passion for creating impact through intelligent solutions*
 
 </div>
+
 
 
 
