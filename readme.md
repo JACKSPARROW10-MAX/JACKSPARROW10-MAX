@@ -70,28 +70,17 @@
 
 ---
 
-<table width="100%">
-  <tr>
-    <!-- 3D Contribution Graph -->
-    <td width="50%" align="center" valign="top">
-      <h3>🌍 3D Contribution Graph</h3>
-      <img
-        src="./profile-3d-contrib/profile-green-animate.svg"
-        width="100%"
-        alt="3D Contribution Graph"
-      />
-    </td>
-    <!-- GitHub Streak -->
-    <td width="50%" align="center" valign="top">
-      <h3>🔥 GitHub Streak</h3>
-      <img
-        src="https://streak-stats.demolab.com?user=JACKSPARROW10-MAX&theme=tokyonight&hide_border=true"
-        width="100%"
-        alt="GitHub Streak"
-      />
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+## 🌍 3D Contribution Graph
+
+<img
+  src="./profile-3d-contrib/profile-green-animate.svg"
+  alt="3D Contribution Graph"
+  width="1100"
+/>
+
+</div>
 ---
 
 <div align="center">
