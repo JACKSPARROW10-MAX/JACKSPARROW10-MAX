@@ -75,9 +75,7 @@
     <!-- Left Column -->
     <td width="50%" align="center">
       Github Stats :
-      <img src="https://github-readme-stats.vercel.app/api?username=JACKSPARROW10-MAX&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1"
-           height="300"
-           alt="GitHub Stats" />
+      ![JACKSPARROW10-MAX Stats](https://vercel.app)
     </td>
     <!-- Right Column -->
     <td width="50%" align="center">
