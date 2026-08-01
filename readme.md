@@ -75,7 +75,7 @@
     <!-- Left Column -->
     <td width="50%" align="center">
       <b>GitHub Stats</b><br><br>
-      <img src="[https://github-readme-stats.vercel.app/api?username=JACKSPARROW10-MAX&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true](https://github-readme-stats-sigma-five.vercel.app/api?username=JACKSPARROW10-MAX&show_icons=true&theme=tokyonight&hide_border=true)" alt="GitHub Stats" />
+      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=JACKSPARROW10-MAX&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
     </td>
     <!-- Right Column -->
     <td width="50%" align="center">
@@ -85,7 +85,6 @@
     </td>
   </tr>
 </table>
-
 ---
 
 <div align="center">
