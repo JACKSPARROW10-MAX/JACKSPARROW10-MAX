@@ -72,29 +72,23 @@
 
 <table width="100%">
   <tr>
-    <!-- Contribution Graph -->
-    <td width="50%" valign="top">
-      <div align="center"
-           style="background:#161B22;border:1px solid #30363D;border-radius:16px;padding:15px;">
-        <h3>📈 Contribution Graph</h3>
-        <img
-          src="https://github-readme-activity-graph.vercel.app/graph?username=JACKSPARROW10-MAX&theme=tokyo-night&hide_border=true&radius=16"
-          width="100%"
-          alt="Contribution Graph"
-        />
-      </div>
+    <!-- 3D Contribution Graph -->
+    <td width="50%" align="center" valign="top">
+      <h3>🌍 3D Contribution Graph</h3>
+      <img
+        src="./profile-3d-contrib/profile-green-animate.svg"
+        width="100%"
+        alt="3D Contribution Graph"
+      />
     </td>
     <!-- GitHub Streak -->
-    <td width="50%" valign="top">
-      <div align="center"
-           style="background:#161B22;border:1px solid #30363D;border-radius:16px;padding:15px;">
-        <h3>🔥 GitHub Streak</h3>
-        <img
-          src="https://streak-stats.demolab.com?user=JACKSPARROW10-MAX&theme=tokyonight&hide_border=true"
-          width="100%"
-          alt="GitHub Streak"
-        />
-      </div>
+    <td width="50%" align="center" valign="top">
+      <h3>🔥 GitHub Streak</h3>
+      <img
+        src="https://streak-stats.demolab.com?user=JACKSPARROW10-MAX&theme=tokyonight&hide_border=true"
+        width="100%"
+        alt="GitHub Streak"
+      />
     </td>
   </tr>
 </table>
