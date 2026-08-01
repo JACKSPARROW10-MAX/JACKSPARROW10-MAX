@@ -72,16 +72,29 @@
 
 <table width="100%">
   <tr>
-    <!-- Left Column -->
-    <td width="50%" align="center">
-      <b>GitHub Stats</b><br><br>
-      <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=JACKSPARROW10-MAX&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+    <!-- Contribution Graph -->
+    <td width="50%" valign="top">
+      <div align="center"
+           style="background:#161B22;border:1px solid #30363D;border-radius:16px;padding:15px;">
+        <h3>📈 Contribution Graph</h3>
+        <img
+          src="https://github-readme-activity-graph.vercel.app/graph?username=JACKSPARROW10-MAX&theme=tokyo-night&hide_border=true&radius=16"
+          width="100%"
+          alt="Contribution Graph"
+        />
+      </div>
     </td>
-    <!-- Right Column -->
-    <td width="50%" align="center">
-      <b>LeetCode Stats</b><br><br>
-      <img src="https://leetcard.jacoblin.cool/Prathamesh_10_2005?theme=dark&font=Fira%20Code&ext=heatmap"
-           alt="LeetCode Stats" />
+    <!-- GitHub Streak -->
+    <td width="50%" valign="top">
+      <div align="center"
+           style="background:#161B22;border:1px solid #30363D;border-radius:16px;padding:15px;">
+        <h3>🔥 GitHub Streak</h3>
+        <img
+          src="https://streak-stats.demolab.com?user=JACKSPARROW10-MAX&theme=tokyonight&hide_border=true"
+          width="100%"
+          alt="GitHub Streak"
+        />
+      </div>
     </td>
   </tr>
 </table>
