@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prathamesh Salokhe — Portfolio Preview (Resume Verified)</title>
+  <title>Prathamesh Salokhe — Portfolio Preview</title>
   <meta name="description" content="GitHub Profile Portfolio for Prathamesh Salokhe - ML & Generative AI Engineer. Verified against Prathamesh_Salokhe.pdf.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +27,11 @@
       padding: 0;
     }
 
+    html, body {
+      width: 100%;
+      overflow-x: hidden;
+    }
+
     body {
       background-color: #ECE5D8;
       color: var(--txt-black);
@@ -35,32 +40,34 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 40px 20px 80px 20px;
+      padding: 30px 16px 60px 16px;
     }
 
     /* Top Floating Control Bar */
     .toolbar {
       position: sticky;
-      top: 20px;
+      top: 16px;
       z-index: 100;
-      background: rgba(246, 241, 231, 0.94);
+      background: rgba(246, 241, 231, 0.95);
       backdrop-filter: blur(12px);
       border: 1px solid var(--border-color);
       border-radius: 40px;
-      padding: 10px 24px;
+      padding: 8px 20px;
       display: flex;
       align-items: center;
-      gap: 16px;
+      gap: 14px;
       box-shadow: var(--shadow-soft);
-      margin-bottom: 35px;
+      margin-bottom: 24px;
+      max-width: 90vw;
     }
 
     .toolbar-title {
       font-weight: 800;
-      font-size: 13px;
+      font-size: 12.5px;
       letter-spacing: 1.5px;
       color: var(--txt-terracotta);
       text-transform: uppercase;
+      white-space: nowrap;
     }
 
     .toolbar-divider {
@@ -73,13 +80,14 @@
       background: transparent;
       border: none;
       font-family: inherit;
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 700;
       color: var(--txt-muted);
       cursor: pointer;
       padding: 6px 14px;
       border-radius: 20px;
       transition: all 0.2s ease;
+      white-space: nowrap;
     }
 
     .tab-btn.active, .tab-btn:hover {
@@ -87,7 +95,7 @@
       color: #FFFFFF;
     }
 
-    /* Main Poster Canvas */
+    /* Main Poster Canvas - ZERO GAP BETWEEN SECTIONS */
     .poster-container {
       width: 100%;
       max-width: 980px;
@@ -98,12 +106,22 @@
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      transition: max-width 0.3s ease;
+      margin: 0 auto;
     }
 
     .svg-section {
       width: 100%;
       display: block;
+      margin: 0;
+      padding: 0;
+      line-height: 0;
+      font-size: 0;
+    }
+
+    .svg-section a {
+      display: block;
+      margin: 0;
+      padding: 0;
       line-height: 0;
     }
 
@@ -111,21 +129,24 @@
       width: 100%;
       height: auto;
       display: block;
+      margin: 0;
+      padding: 0;
+      border: none;
     }
 
     /* Interactive Overlay Links Simulation */
     .links-footer {
       background: var(--bg-cream);
-      padding: 30px 45px 45px 45px;
+      padding: 24px 30px 40px 30px;
       border-top: 1px solid var(--border-color);
     }
 
     .links-grid {
       display: flex;
       flex-wrap: wrap;
-      gap: 12px;
+      gap: 10px;
       justify-content: center;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
     }
 
     .chip-link {
@@ -137,7 +158,7 @@
       text-decoration: none;
       font-size: 12px;
       font-weight: 700;
-      padding: 10px 18px;
+      padding: 8px 16px;
       border-radius: 30px;
       transition: transform 0.2s ease, background 0.2s ease;
     }
@@ -155,18 +176,18 @@
     .contrib-wrapper {
       background: #FFFFFF;
       border: 1px solid var(--border-color);
-      border-radius: 8px;
-      padding: 20px;
-      margin-top: 15px;
+      border-radius: 6px;
+      padding: 16px;
+      margin-top: 10px;
       text-align: center;
     }
 
     .contrib-title {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 800;
       color: var(--txt-black);
       letter-spacing: 1px;
-      margin-bottom: 15px;
+      margin-bottom: 12px;
       text-transform: uppercase;
       display: flex;
       align-items: center;
@@ -178,13 +199,14 @@
     .github-simulation {
       display: none;
       width: 100%;
-      max-width: 1060px;
+      max-width: 1020px;
       background: #0d1117;
       color: #e6edf3;
       border: 1px solid #30363d;
-      border-radius: 12px;
-      padding: 30px;
+      border-radius: 10px;
+      padding: 24px;
       box-shadow: var(--shadow-paper);
+      margin: 0 auto;
     }
 
     .gh-header {
@@ -192,25 +214,25 @@
       align-items: center;
       gap: 16px;
       border-bottom: 1px solid #21262d;
-      padding-bottom: 20px;
-      margin-bottom: 24px;
+      padding-bottom: 16px;
+      margin-bottom: 20px;
     }
 
     .gh-avatar {
-      width: 56px;
-      height: 56px;
+      width: 52px;
+      height: 52px;
       border-radius: 50%;
       border: 2px solid var(--txt-terracotta);
     }
 
     .gh-user-title {
-      font-size: 18px;
+      font-size: 17px;
       font-weight: 700;
       color: #f0f6fc;
     }
 
     .gh-user-sub {
-      font-size: 13px;
+      font-size: 12.5px;
       color: #8b949e;
     }
 
@@ -218,23 +240,40 @@
       background: #0d1117;
       border: 1px solid #30363d;
       border-radius: 6px;
-      padding: 24px;
+      padding: 16px;
     }
 
     .gh-readme-header {
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 600;
       color: #8b949e;
       border-bottom: 1px solid #21262d;
-      padding-bottom: 12px;
-      margin-bottom: 20px;
+      padding-bottom: 10px;
+      margin-bottom: 16px;
+    }
+
+    .gh-readme-content {
+      background: var(--bg-cream);
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      line-height: 0;
+      font-size: 0;
+    }
+
+    .gh-readme-content img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0;
+      padding: 0;
     }
 
     /* File Asset Inspector Bar */
     .assets-strip {
-      margin-top: 35px;
+      margin-top: 25px;
       display: flex;
-      gap: 12px;
+      gap: 10px;
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -242,10 +281,10 @@
     .asset-pill {
       background: var(--bg-cream);
       border: 1px solid var(--border-color);
-      padding: 6px 14px;
-      border-radius: 16px;
+      padding: 5px 12px;
+      border-radius: 14px;
       font-family: 'JetBrains Mono', monospace;
-      font-size: 11.5px;
+      font-size: 11px;
       color: var(--txt-black);
       text-decoration: none;
       display: inline-flex;
@@ -262,10 +301,34 @@
     }
 
     .asset-dot {
-      width: 7px;
-      height: 7px;
+      width: 6px;
+      height: 6px;
       border-radius: 50%;
       background: var(--txt-terracotta);
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 15px 8px 40px 8px;
+      }
+      .toolbar {
+        padding: 6px 14px;
+        gap: 8px;
+      }
+      .toolbar-title {
+        font-size: 11px;
+      }
+      .tab-btn {
+        font-size: 11px;
+        padding: 5px 10px;
+      }
+      .links-footer {
+        padding: 20px 15px;
+      }
+      .chip-link {
+        font-size: 11px;
+        padding: 6px 12px;
+      }
     }
   </style>
 </head>
@@ -278,23 +341,27 @@
     <button class="tab-btn active" id="tab-poster" onclick="switchView('poster')">Poster View</button>
     <button class="tab-btn" id="tab-github" onclick="switchView('github')">GitHub View</button>
     <div class="toolbar-divider"></div>
-    <span style="font-size: 12px; font-weight: 600; color: var(--txt-muted);">Prathamesh Salokhe • Resume Verified</span>
+    <span style="font-size: 12px; font-weight: 600; color: var(--txt-muted);">Prathamesh Salokhe</span>
   </header>
 
-  <!-- POSTER MAGAZINE PRESENTATION -->
+  <!-- POSTER MAGAZINE PRESENTATION (Zero gap between sections) -->
   <main class="poster-container" id="poster-view">
     
-    <!-- Hero Section (Portrait, Large Typography, Bio) -->
+    <!-- Hero Section -->
     <section class="svg-section" id="hero-sec">
-      <img src="assets/hero.svg" alt="Portfolio Hero Banner" id="img-hero" />
+      <a href="https://github.com/JACKSPARROW10-MAX">
+        <img src="assets/hero.svg" alt="Portfolio Hero Banner" id="img-hero" />
+      </a>
     </section>
 
-    <!-- Selected Projects 4-Card Grid (Verified from Resume) -->
+    <!-- Selected Projects 4-Card Grid -->
     <section class="svg-section" id="projects-sec">
-      <img src="assets/projects.svg" alt="Selected Projects 4-Card Grid" id="img-projects" />
+      <a href="https://github.com/JACKSPARROW10-MAX?tab=repositories">
+        <img src="assets/projects.svg" alt="Selected Projects 4-Card Grid" id="img-projects" />
+      </a>
     </section>
 
-    <!-- Technical Skills Section (Verbatim from Resume) -->
+    <!-- Technical Skills Section -->
     <section class="svg-section" id="skills-sec">
       <img src="assets/skills.svg" alt="Technical Skills Section" id="img-skills" />
     </section>
@@ -334,7 +401,7 @@
     </footer>
   </main>
 
-  <!-- GITHUB README SIMULATION VIEW -->
+  <!-- GITHUB README SIMULATION VIEW (Zero dark gap between banners) -->
   <section class="github-simulation" id="github-view">
     <div class="gh-header">
       <img src="assets/profile.png" alt="Prathamesh Salokhe" class="gh-avatar" />
@@ -347,11 +414,11 @@
     <div class="gh-readme-box">
       <div class="gh-readme-header">JACKSPARROW10-MAX / README.md</div>
       
-      <div style="background: #F6F1E7; border-radius: 6px; padding: 10px; overflow: hidden;">
-        <img src="assets/hero.svg" alt="Hero" style="width: 100%; margin-bottom: 12px; display: block;" />
-        <img src="assets/projects.svg" alt="Projects" style="width: 100%; margin-bottom: 12px; display: block;" />
-        <img src="assets/skills.svg" alt="Skills" style="width: 100%; margin-bottom: 12px; display: block;" />
-        <img src="assets/focus.svg" alt="Focus" style="width: 100%; display: block;" />
+      <div class="gh-readme-content">
+        <a href="https://github.com/JACKSPARROW10-MAX"><img src="assets/hero.svg" alt="Hero" /></a>
+        <a href="https://github.com/JACKSPARROW10-MAX?tab=repositories"><img src="assets/projects.svg" alt="Projects" /></a>
+        <img src="assets/skills.svg" alt="Skills" />
+        <img src="assets/focus.svg" alt="Focus" />
       </div>
     </div>
   </section>

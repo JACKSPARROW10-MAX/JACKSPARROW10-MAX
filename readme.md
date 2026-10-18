@@ -1,28 +1,15 @@
 <div align="center">
 
 <!-- Hero Banner (Identity, Editorial Headline, Portrait) -->
-<a href="https://github.com/JACKSPARROW10-MAX">
-  <img src="assets/hero.svg" alt="Prathamesh Salokhe - Portfolio Hero" width="100%" />
-</a>
-
-<br><br>
-
+<a href="https://github.com/JACKSPARROW10-MAX"><img src="assets/hero.svg" alt="Prathamesh Salokhe - Portfolio Hero" width="100%" style="display: block; margin: 0;" /></a>
 <!-- Selected Projects Grid (NeuroNauts, Sales Analytics, LoanFlow, Sunbeam RAG) -->
-<a href="https://github.com/JACKSPARROW10-MAX?tab=repositories">
-  <img src="assets/projects.svg" alt="Selected Projects - NeuroNauts, Sales Analytics, LoanFlow, Sunbeam RAG" width="100%" />
-</a>
-
-<br><br>
-
+<a href="https://github.com/JACKSPARROW10-MAX?tab=repositories"><img src="assets/projects.svg" alt="Selected Projects - NeuroNauts, Sales Analytics, LoanFlow, Sunbeam RAG" width="100%" style="display: block; margin: 0;" /></a>
 <!-- Technical Skills Section (Authoritative verbatim from Resume) -->
-<img src="assets/skills.svg" alt="Technical Skills - Generative AI & LLMs, Vector & Databases, ML & Data, Languages, Backend & APIs, Cloud & DevOps" width="100%" />
-
-<br><br>
-
+<img src="assets/skills.svg" alt="Technical Skills - Generative AI & LLMs, Vector & Databases, ML & Data, Languages, Backend & APIs, Cloud & DevOps" width="100%" style="display: block; margin: 0;" />
 <!-- Current Focus & Connect Section -->
-<img src="assets/focus.svg" alt="Current Focus, Achievements & Connect" width="100%" />
+<img src="assets/focus.svg" alt="Current Focus, Achievements & Connect" width="100%" style="display: block; margin: 0;" />
 
-<br><br>
+<br>
 
 <!-- Verified Contact & Professional Links -->
 <p align="center">

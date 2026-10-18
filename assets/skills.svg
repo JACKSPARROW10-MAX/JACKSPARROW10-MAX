@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 515" width="100%" height="100%">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap');
@@ -9,108 +9,114 @@
       .txt-terracotta { fill: #B9634C; }
       .txt-muted { fill: #6B6355; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
       .border-line { stroke: #D8CEBC; stroke-width: 1; }
-      .cat-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11.5px; font-weight: 800; letter-spacing: 1.5px; fill: #B9634C; }
-      .cat-text { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 12px; font-weight: 600; fill: #171717; }
+      .cat-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 800; letter-spacing: 1.5px; fill: #B9634C; }
+      .cat-text { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11.5px; font-weight: 600; fill: #171717; }
     </style>
   </defs>
 
-  <rect width="1000" height="620" class="bg" />
+  <rect width="1000" height="515" class="bg" />
 
   <!-- Section Header -->
-  <g transform="translate(45, 45)">
-    <text x="0" y="0" class="txt-black txt-serif" font-size="28" font-weight="900" letter-spacing="1">TECHNICAL</text>
-    <text x="175" y="0" class="txt-terracotta txt-serif" font-size="28" font-style="italic" font-weight="700">SKILLS</text>
-    <text x="360" y="-2" class="txt-muted" font-size="12" font-weight="500">Authoritative competencies extracted verbatim from resume's Technical Skills section.</text>
+  <g transform="translate(45, 34)">
+    <text x="0" y="0" class="txt-serif" font-size="26">
+      <tspan fill="#171717" font-weight="900">TECHNICAL </tspan>
+      <tspan fill="#B9634C" font-style="italic" font-weight="700">SKILLS</tspan>
+    </text>
+    <text x="0" y="22" class="txt-muted" font-size="12" font-weight="500">
+      Authoritative competencies extracted verbatim from resume's Technical Skills section.
+    </text>
   </g>
 
-  <line x1="45" y1="75" x2="955" y2="75" class="border-line" />
+  <line x1="45" y1="68" x2="955" y2="68" class="border-line" />
 
-  <!-- 6 CATEGORIES LAID OUT IN A 2-COLUMN STRUCTURE (Col 1: x=45, Col 2: x=510, Width=445) -->
+  <!-- 6 CATEGORIES LAID OUT IN 2 COLUMNS (Col 1: x=45, Col 2: x=510, Width=445) -->
 
   <!-- ROW 1 -->
   <!-- 1. Generative AI & LLMs -->
-  <g transform="translate(45, 105)">
-    <rect width="445" height="110" rx="5" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
-    <circle cx="28" cy="28" r="14" fill="#B9634C" />
-    <text x="28" y="32" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">AI</text>
+  <g transform="translate(45, 85)">
+    <rect width="445" height="92" rx="4" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="25" cy="24" r="12" fill="#B9634C" />
+    <text x="25" y="28" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="800" text-anchor="middle">AI</text>
     
-    <text x="52" y="32" class="cat-title">GENERATIVE AI &amp; LLMS</text>
-    <text x="24" y="62" class="cat-text">RAG • Agentic AI • Prompt &amp; Context Engineering</text>
-    <text x="24" y="86" class="cat-text">Embeddings • LangChain • Hugging Face • Groq</text>
+    <text x="46" y="28" class="cat-title">GENERATIVE AI &amp; LLMS</text>
+    <text x="20" y="52" class="cat-text">RAG • Agentic AI • Prompt &amp; Context Engineering</text>
+    <text x="20" y="74" class="cat-text">Embeddings • LangChain • Hugging Face • Groq</text>
   </g>
 
   <!-- 2. Vector & Databases -->
-  <g transform="translate(510, 105)">
-    <rect width="445" height="110" rx="5" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
-    <circle cx="28" cy="28" r="14" fill="#171717" />
-    <text x="28" y="32" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">DB</text>
+  <g transform="translate(510, 85)">
+    <rect width="445" height="92" rx="4" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="25" cy="24" r="12" fill="#171717" />
+    <text x="25" y="28" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="800" text-anchor="middle">DB</text>
     
-    <text x="52" y="32" class="cat-title">VECTOR &amp; DATABASES</text>
-    <text x="24" y="62" class="cat-text">ChromaDB • Milvus / Zilliz (vector) • Supabase</text>
-    <text x="24" y="86" class="cat-text">PostgreSQL • SQL (relational) • Firebase (NoSQL)</text>
+    <text x="46" y="28" class="cat-title">VECTOR &amp; DATABASES</text>
+    <text x="20" y="52" class="cat-text">ChromaDB • Milvus / Zilliz (vector) • Supabase</text>
+    <text x="20" y="74" class="cat-text">PostgreSQL • SQL (relational) • Firebase (NoSQL)</text>
   </g>
 
   <!-- ROW 2 -->
   <!-- 3. Machine Learning & Data -->
-  <g transform="translate(45, 230)">
-    <rect width="445" height="110" rx="5" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
-    <circle cx="28" cy="28" r="14" fill="#171717" />
-    <text x="28" y="32" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">ML</text>
+  <g transform="translate(45, 192)">
+    <rect width="445" height="92" rx="4" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="25" cy="24" r="12" fill="#171717" />
+    <text x="25" y="28" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="800" text-anchor="middle">ML</text>
     
-    <text x="52" y="32" class="cat-title">MACHINE LEARNING &amp; DATA</text>
-    <text x="24" y="60" class="cat-text">scikit-learn • PyTorch • TensorFlow • pandas • NumPy</text>
-    <text x="24" y="80" class="cat-text">EDA • Feature Engineering • Regression • Anomaly Detection</text>
-    <text x="24" y="100" class="txt-muted" font-size="11" font-weight="600">MAPE • ETL • Power BI</text>
+    <text x="46" y="28" class="cat-title">MACHINE LEARNING &amp; DATA</text>
+    <text x="20" y="52" class="cat-text">scikit-learn • PyTorch • TensorFlow • pandas • NumPy</text>
+    <text x="20" y="74" class="cat-text">EDA • Feature Engineering • Regression • Anomaly Detection • Power BI</text>
   </g>
 
   <!-- 4. Languages -->
-  <g transform="translate(510, 230)">
-    <rect width="445" height="110" rx="5" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
-    <circle cx="28" cy="28" r="14" fill="#B9634C" />
-    <text x="28" y="32" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">&lt;/&gt;</text>
+  <g transform="translate(510, 192)">
+    <rect width="445" height="92" rx="4" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="25" cy="24" r="12" fill="#B9634C" />
+    <text x="25" y="28" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="800" text-anchor="middle">&lt;/&gt;</text>
     
-    <text x="52" y="32" class="cat-title">LANGUAGES</text>
-    <text x="24" y="65" class="cat-text" font-size="14">Python (primary) • SQL • Java</text>
-    <text x="24" y="90" class="cat-text" font-size="14">JavaScript • C</text>
+    <text x="46" y="28" class="cat-title">LANGUAGES</text>
+    <text x="20" y="54" class="cat-text" font-size="13">Python (primary) • SQL • Java</text>
+    <text x="20" y="76" class="cat-text" font-size="13">JavaScript • C</text>
   </g>
 
   <!-- ROW 3 -->
   <!-- 5. Backend & APIs -->
-  <g transform="translate(45, 355)">
-    <rect width="445" height="110" rx="5" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
-    <circle cx="28" cy="28" r="14" fill="#B9634C" />
-    <text x="28" y="32" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">API</text>
+  <g transform="translate(45, 299)">
+    <rect width="445" height="92" rx="4" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="25" cy="24" r="12" fill="#B9634C" />
+    <text x="25" y="28" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="800" text-anchor="middle">API</text>
     
-    <text x="52" y="32" class="cat-title">BACKEND &amp; APIS</text>
-    <text x="24" y="62" class="cat-text">FastAPI • REST APIs • Microservices</text>
-    <text x="24" y="86" class="cat-text">SQLAlchemy • Streamlit • React</text>
+    <text x="46" y="28" class="cat-title">BACKEND &amp; APIS</text>
+    <text x="20" y="52" class="cat-text">FastAPI • REST APIs • Microservices</text>
+    <text x="20" y="74" class="cat-text">SQLAlchemy • Streamlit • React</text>
   </g>
 
   <!-- 6. Cloud & DevOps -->
-  <g transform="translate(510, 355)">
-    <rect width="445" height="110" rx="5" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
-    <circle cx="28" cy="28" r="14" fill="#171717" />
-    <text x="28" y="32" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">☁</text>
+  <g transform="translate(510, 299)">
+    <rect width="445" height="92" rx="4" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="25" cy="24" r="12" fill="#171717" />
+    <text x="25" y="28" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9" font-weight="800" text-anchor="middle">☁</text>
     
-    <text x="52" y="32" class="cat-title">CLOUD &amp; DEVOPS</text>
-    <text x="24" y="62" class="cat-text">AWS (S3, EC2, Glue, Athena, Redshift) • GCP • Azure</text>
-    <text x="24" y="86" class="cat-text">Docker • Git &amp; GitHub • GitHub Actions CI/CD</text>
+    <text x="46" y="28" class="cat-title">CLOUD &amp; DEVOPS</text>
+    <text x="20" y="52" class="cat-text">AWS (S3, EC2, Glue, Athena, Redshift) • GCP • Azure</text>
+    <text x="20" y="74" class="cat-text">Docker • Git &amp; GitHub • GitHub Actions CI/CD</text>
   </g>
 
-  <!-- BOTTOM CERTIFICATIONS & HIGHLIGHTS STRIP -->
-  <g transform="translate(45, 485)">
-    <rect width="910" height="95" rx="6" fill="#F0E8DC" stroke="#D8CEBC" stroke-width="1" />
+  <!-- BOTTOM HIGHLIGHTS STRIP -->
+  <g transform="translate(45, 406)">
+    <rect width="910" height="85" rx="5" fill="#F0E8DC" stroke="#D8CEBC" stroke-width="1" />
     
-    <g transform="translate(25, 30)">
-      <text x="0" y="0" fill="#B9634C" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" letter-spacing="1">KEY ACHIEVEMENTS &amp; RECOGNITION</text>
-      <text x="0" y="24" class="txt-black" font-size="12" font-weight="700">🏆 1st place of ~200 teams (AI NEXUS 2025)</text>
-      <text x="0" y="44" class="txt-muted" font-size="11.5" font-weight="500">Tour Genie chatbot prototype on Azure Cognitive Services</text>
+    <g transform="translate(25, 26)">
+      <text x="0" y="0" fill="#B9634C" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="800" letter-spacing="1">KEY ACHIEVEMENTS &amp; RECOGNITION</text>
+      <text x="0" y="22" class="txt-black" font-size="11.5" font-weight="700">🏆 1st place of ~200 teams (AI NEXUS 2025) • Azure Cognitive Services</text>
+      <text x="0" y="40" class="txt-muted" font-size="11" font-weight="500">Top 6 of 400+ teams (ACM WCE 2026) • AWS Academy Data Engineering (Credly)</text>
     </g>
 
-    <g transform="translate(470, 30)">
-      <text x="0" y="0" fill="#B9634C" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="800" letter-spacing="1">ACADEMIC &amp; COMPETITIVE CODE</text>
-      <text x="0" y="24" class="txt-black" font-size="12" font-weight="700">⚡ LeetCode 1500+ Rating • 400+ Problems Solved</text>
-      <text x="0" y="44" class="txt-muted" font-size="11.5" font-weight="500">Top 6 of 400+ teams (ACM WCE 2026) • AWS Academy Data Engineering (Credly)</text>
+    <g transform="translate(560, 26)">
+      <text x="0" y="0" fill="#B9634C" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="800" letter-spacing="1">ACADEMIC &amp; COMPETITIVE CODE</text>
+      <text x="0" y="22" class="txt-black" font-size="11.5" font-weight="700">⚡ LeetCode 1500+ Rating • 400+ Problems Solved</text>
+      <text x="0" y="40" class="txt-muted" font-size="11" font-weight="500">DKTE Ichalkaranji • B.Tech AI &amp; Data Science (CGPA 8.96/10)</text>
     </g>
   </g>
+
+  <!-- Bottom Divider Line for Seamless Transition -->
+  <line x1="45" y1="514" x2="955" y2="514" class="border-line" />
 </svg>
