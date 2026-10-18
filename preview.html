@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prathamesh Salokhe — Portfolio Preview (Resume Verified)</title>
+  <meta name="description" content="GitHub Profile Portfolio for Prathamesh Salokhe - ML & Generative AI Engineer. Verified against Prathamesh_Salokhe.pdf.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;0,900;1,400;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-cream: #F6F1E7;
+      --bg-cream-dark: #EDE4D3;
+      --txt-black: #171717;
+      --txt-terracotta: #B9634C;
+      --txt-muted: #6B6355;
+      --border-color: #D8CEBC;
+      --shadow-soft: 0 16px 40px rgba(23, 23, 23, 0.08);
+      --shadow-paper: 0 30px 80px rgba(23, 23, 23, 0.14);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #ECE5D8;
+      color: var(--txt-black);
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px 80px 20px;
+    }
+
+    /* Top Floating Control Bar */
+    .toolbar {
+      position: sticky;
+      top: 20px;
+      z-index: 100;
+      background: rgba(246, 241, 231, 0.94);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border-color);
+      border-radius: 40px;
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      box-shadow: var(--shadow-soft);
+      margin-bottom: 35px;
+    }
+
+    .toolbar-title {
+      font-weight: 800;
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      color: var(--txt-terracotta);
+      text-transform: uppercase;
+    }
+
+    .toolbar-divider {
+      width: 1px;
+      height: 18px;
+      background: var(--border-color);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--txt-muted);
+      cursor: pointer;
+      padding: 6px 14px;
+      border-radius: 20px;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn.active, .tab-btn:hover {
+      background: var(--txt-black);
+      color: #FFFFFF;
+    }
+
+    /* Main Poster Canvas */
+    .poster-container {
+      width: 100%;
+      max-width: 980px;
+      background: var(--bg-cream);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      box-shadow: var(--shadow-paper);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: max-width 0.3s ease;
+    }
+
+    .svg-section {
+      width: 100%;
+      display: block;
+      line-height: 0;
+    }
+
+    .svg-section img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Interactive Overlay Links Simulation */
+    .links-footer {
+      background: var(--bg-cream);
+      padding: 30px 45px 45px 45px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .links-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+
+    .chip-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--txt-black);
+      color: #FFFFFF;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 10px 18px;
+      border-radius: 30px;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+
+    .chip-link.terracotta {
+      background: var(--txt-terracotta);
+    }
+
+    .chip-link:hover {
+      transform: translateY(-2px);
+      opacity: 0.95;
+    }
+
+    /* Contribution Section Simulation */
+    .contrib-wrapper {
+      background: #FFFFFF;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 20px;
+      margin-top: 15px;
+      text-align: center;
+    }
+
+    .contrib-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: var(--txt-black);
+      letter-spacing: 1px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    /* GitHub Profile Frame View */
+    .github-simulation {
+      display: none;
+      width: 100%;
+      max-width: 1060px;
+      background: #0d1117;
+      color: #e6edf3;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: var(--shadow-paper);
+    }
+
+    .gh-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+
+    .gh-avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 2px solid var(--txt-terracotta);
+    }
+
+    .gh-user-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #f0f6fc;
+    }
+
+    .gh-user-sub {
+      font-size: 13px;
+      color: #8b949e;
+    }
+
+    .gh-readme-box {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      padding: 24px;
+    }
+
+    .gh-readme-header {
+      font-size: 13px;
+      font-weight: 600;
+      color: #8b949e;
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    /* File Asset Inspector Bar */
+    .assets-strip {
+      margin-top: 35px;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .asset-pill {
+      background: var(--bg-cream);
+      border: 1px solid var(--border-color);
+      padding: 6px 14px;
+      border-radius: 16px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11.5px;
+      color: var(--txt-black);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: var(--shadow-soft);
+      transition: all 0.2s;
+    }
+
+    .asset-pill:hover {
+      border-color: var(--txt-terracotta);
+      color: var(--txt-terracotta);
+      transform: translateY(-1px);
+    }
+
+    .asset-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--txt-terracotta);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Navigation Toolbar -->
+  <header class="toolbar">
+    <div class="toolbar-title">✦ Editorial Portfolio</div>
+    <div class="toolbar-divider"></div>
+    <button class="tab-btn active" id="tab-poster" onclick="switchView('poster')">Poster View</button>
+    <button class="tab-btn" id="tab-github" onclick="switchView('github')">GitHub View</button>
+    <div class="toolbar-divider"></div>
+    <span style="font-size: 12px; font-weight: 600; color: var(--txt-muted);">Prathamesh Salokhe • Resume Verified</span>
+  </header>
+
+  <!-- POSTER MAGAZINE PRESENTATION -->
+  <main class="poster-container" id="poster-view">
+    
+    <!-- Hero Section (Portrait, Large Typography, Bio) -->
+    <section class="svg-section" id="hero-sec">
+      <img src="assets/hero.svg" alt="Portfolio Hero Banner" id="img-hero" />
+    </section>
+
+    <!-- Selected Projects 4-Card Grid (Verified from Resume) -->
+    <section class="svg-section" id="projects-sec">
+      <img src="assets/projects.svg" alt="Selected Projects 4-Card Grid" id="img-projects" />
+    </section>
+
+    <!-- Technical Skills Section (Verbatim from Resume) -->
+    <section class="svg-section" id="skills-sec">
+      <img src="assets/skills.svg" alt="Technical Skills Section" id="img-skills" />
+    </section>
+
+    <!-- Current Focus & Contact Section -->
+    <section class="svg-section" id="focus-sec">
+      <img src="assets/focus.svg" alt="Current Focus and Collaboration" id="img-focus" />
+    </section>
+
+    <!-- Interactive Interactive Links Footer -->
+    <footer class="links-footer">
+      <div class="links-grid">
+        <a href="mailto:prathameshsalokhe901@gmail.com" class="chip-link terracotta" target="_blank">
+          ✉ prathameshsalokhe901@gmail.com
+        </a>
+        <a href="tel:+917768960392" class="chip-link" target="_blank">
+          📞 +91 7768960392
+        </a>
+        <a href="https://www.linkedin.com/in/prathamesh-salokhe-292791293" class="chip-link" target="_blank">
+          💼 LinkedIn Profile
+        </a>
+        <a href="https://github.com/JACKSPARROW10-MAX" class="chip-link terracotta" target="_blank">
+          🐙 GitHub: JACKSPARROW10-MAX
+        </a>
+        <a href="https://leetcode.com/u/Prathamesh_10_2005/" class="chip-link" target="_blank">
+          ⚡ LeetCode (1500+ Rating)
+        </a>
+      </div>
+
+      <!-- 3D Contribution Graph -->
+      <div class="contrib-wrapper">
+        <div class="contrib-title">
+          <span>📊 Real-time 3D GitHub Activity Graph</span>
+        </div>
+        <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Activity Graph" style="width: 100%; height: auto; max-width: 880px; display: inline-block;" onerror="this.style.display='none'" />
+      </div>
+    </footer>
+  </main>
+
+  <!-- GITHUB README SIMULATION VIEW -->
+  <section class="github-simulation" id="github-view">
+    <div class="gh-header">
+      <img src="assets/profile.png" alt="Prathamesh Salokhe" class="gh-avatar" />
+      <div>
+        <div class="gh-user-title">Prathamesh Ranjit Salokhe <span style="font-weight: 400; color: #8b949e;">(JACKSPARROW10-MAX)</span></div>
+        <div class="gh-user-sub">ML &amp; Generative AI Engineer | LLMs, RAG, Prompt Engineering, Python • Kolhapur (relocating to Pune)</div>
+      </div>
+    </div>
+
+    <div class="gh-readme-box">
+      <div class="gh-readme-header">JACKSPARROW10-MAX / README.md</div>
+      
+      <div style="background: #F6F1E7; border-radius: 6px; padding: 10px; overflow: hidden;">
+        <img src="assets/hero.svg" alt="Hero" style="width: 100%; margin-bottom: 12px; display: block;" />
+        <img src="assets/projects.svg" alt="Projects" style="width: 100%; margin-bottom: 12px; display: block;" />
+        <img src="assets/skills.svg" alt="Skills" style="width: 100%; margin-bottom: 12px; display: block;" />
+        <img src="assets/focus.svg" alt="Focus" style="width: 100%; display: block;" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Generated Assets Bar -->
+  <div class="assets-strip">
+    <a href="assets/profile.png" target="_blank" class="asset-pill"><span class="asset-dot"></span> profile.png</a>
+    <a href="assets/hero.svg" target="_blank" class="asset-pill"><span class="asset-dot"></span> hero.svg</a>
+    <a href="assets/projects.svg" target="_blank" class="asset-pill"><span class="asset-dot"></span> projects.svg</a>
+    <a href="assets/skills.svg" target="_blank" class="asset-pill"><span class="asset-dot"></span> skills.svg</a>
+    <a href="assets/focus.svg" target="_blank" class="asset-pill"><span class="asset-dot"></span> focus.svg</a>
+    <a href="README.md" target="_blank" class="asset-pill"><span class="asset-dot"></span> README.md</a>
+  </div>
+
+  <script>
+    function switchView(view) {
+      const posterView = document.getElementById('poster-view');
+      const ghView = document.getElementById('github-view');
+      const tabPoster = document.getElementById('tab-poster');
+      const tabGh = document.getElementById('tab-github');
+
+      if (view === 'poster') {
+        posterView.style.display = 'flex';
+        ghView.style.display = 'none';
+        tabPoster.classList.add('active');
+        tabGh.classList.remove('active');
+      } else {
+        posterView.style.display = 'none';
+        ghView.style.display = 'block';
+        tabPoster.classList.remove('active');
+        tabGh.classList.add('active');
+      }
+    }
+  </script>
+</body>
+</html>

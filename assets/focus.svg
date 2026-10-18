@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 520" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap');
+      
+      .bg { fill: #F6F1E7; }
+      .txt-black { fill: #171717; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .txt-serif { font-family: 'Playfair Display', Georgia, serif; }
+      .txt-terracotta { fill: #B9634C; }
+      .txt-muted { fill: #6B6355; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .border-line { stroke: #D8CEBC; stroke-width: 1; }
+      .focus-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; font-weight: 800; letter-spacing: 0.5px; fill: #171717; }
+      .focus-sub { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11.5px; font-weight: 500; fill: #6B6355; }
+    </style>
+  </defs>
+
+  <rect width="1000" height="520" class="bg" />
+
+  <!-- Section Header -->
+  <g transform="translate(45, 45)">
+    <text x="0" y="0" class="txt-black txt-serif" font-size="28" font-weight="900" letter-spacing="1">CURRENT FOCUS &amp;</text>
+    <text x="270" y="0" class="txt-terracotta txt-serif" font-size="28" font-style="italic" font-weight="700">INTERESTS</text>
+    <text x="450" y="-2" class="txt-muted" font-size="12" font-weight="500">Active engineering focus areas reflecting recent projects, internships &amp; coursework.</text>
+  </g>
+
+  <line x1="45" y1="75" x2="955" y2="75" class="border-line" />
+
+  <!-- 4 FOCUS CARDS (2x2 Grid) -->
+
+  <!-- Card 1: Generative AI & RAG -->
+  <g transform="translate(45, 105)">
+    <rect width="445" height="100" rx="6" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="45" cy="50" r="22" fill="#B9634C" />
+    <text x="45" y="55" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" text-anchor="middle">RAG</text>
+    
+    <text x="82" y="38" class="focus-title">GENERATIVE AI &amp; AGENTIC RAG</text>
+    <text x="82" y="58" class="focus-sub">Document-grounded Q&amp;A, semantic retrieval, embeddings in</text>
+    <text x="82" y="74" class="focus-sub">Milvus and ChromaDB, and prompt engineering with Groq LLaMA.</text>
+  </g>
+
+  <!-- Card 2: ML Forecasting & Analytics -->
+  <g transform="translate(510, 105)">
+    <rect width="445" height="100" rx="6" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="45" cy="50" r="22" fill="#171717" />
+    <text x="45" y="55" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" text-anchor="middle">ML</text>
+    
+    <text x="82" y="38" class="focus-title">ML FORECASTING &amp; DECISION REPORTING</text>
+    <text x="82" y="58" class="focus-sub">30-day revenue forecasting (Ridge), Isolation Forest anomaly</text>
+    <text x="82" y="74" class="focus-sub">detection, and automated LLM executive insights from SQL data.</text>
+  </g>
+
+  <!-- Card 3: Data Structures & Algorithms -->
+  <g transform="translate(45, 225)">
+    <rect width="445" height="100" rx="6" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="45" cy="50" r="22" fill="#171717" />
+    <text x="45" y="55" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" text-anchor="middle">DSA</text>
+    
+    <text x="82" y="38" class="focus-title">DATA STRUCTURES &amp; ALGORITHMS</text>
+    <text x="82" y="58" class="focus-sub">LeetCode 1500+ rating with 400+ problems solved across</text>
+    <text x="82" y="74" class="focus-sub">dynamic programming, graph algorithms, Python, Java, and C.</text>
+  </g>
+
+  <!-- Card 4: Cloud & Microservices -->
+  <g transform="translate(510, 225)">
+    <rect width="445" height="100" rx="6" fill="#EDE4D3" stroke="#D8CEBC" stroke-width="1" />
+    <circle cx="45" cy="50" r="22" fill="#B9634C" />
+    <text x="45" y="56" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="800" text-anchor="middle">☁</text>
+    
+    <text x="82" y="38" class="focus-title">FASTAPI SERVICES &amp; CLOUD DEVOPS</text>
+    <text x="82" y="58" class="focus-sub">FastAPI REST microservices, Docker containerization, AWS (S3, EC2,</text>
+    <text x="82" y="74" class="focus-sub">Glue, Athena, Redshift), and GitHub Actions CI/CD automation.</text>
+  </g>
+
+  <!-- Divider Rule -->
+  <line x1="45" y1="345" x2="955" y2="345" class="border-line" />
+
+  <!-- CONTACT & COLLABORATION FOOTER -->
+  <g transform="translate(45, 385)">
+    <!-- Left Headline -->
+    <text x="0" y="24" class="txt-black txt-serif" font-size="24" font-weight="900" letter-spacing="1">LET'S CREATE</text>
+    <text x="175" y="24" class="txt-terracotta txt-serif" font-size="24" font-style="italic" font-weight="700">SOMETHING GREAT</text>
+    <text x="0" y="52" class="txt-muted" font-size="12.5" font-weight="500">Open for ML &amp; GenAI engineering roles, internships, and ambitious projects.</text>
+
+    <!-- Right Contact Credentials -->
+    <g transform="translate(530, 5)">
+      <!-- Email -->
+      <g transform="translate(0, 0)">
+        <text x="0" y="0" class="txt-terracotta" font-size="13" font-weight="800">✉</text>
+        <text x="18" y="-1" class="txt-black" font-size="11" font-weight="700">prathameshsalokhe901@gmail.com</text>
+      </g>
+      
+      <!-- Phone & Location -->
+      <g transform="translate(235, 0)">
+        <text x="0" y="0" class="txt-terracotta" font-size="13" font-weight="800">📞</text>
+        <text x="18" y="-1" class="txt-black" font-size="11" font-weight="700">+91 7768960392</text>
+      </g>
+
+      <!-- GitHub & LinkedIn -->
+      <g transform="translate(0, 26)">
+        <text x="0" y="0" class="txt-terracotta" font-size="13" font-weight="800">🐙</text>
+        <text x="18" y="-1" class="txt-black" font-size="11" font-weight="700">github.com/JACKSPARROW10-MAX</text>
+
+        <text x="235" y="0" class="txt-terracotta" font-size="13" font-weight="800">💼</text>
+        <text x="253" y="-1" class="txt-black" font-size="11" font-weight="700">prathamesh-salokhe-292791293</text>
+      </g>
+
+      <!-- LeetCode & Education Location -->
+      <g transform="translate(0, 52)">
+        <text x="0" y="0" class="txt-terracotta" font-size="13" font-weight="800">⚡</text>
+        <text x="18" y="-1" class="txt-black" font-size="11" font-weight="700">LeetCode: Prathamesh_10_2005 (1500+)</text>
+
+        <text x="235" y="0" class="txt-terracotta" font-size="13" font-weight="800">📍</text>
+        <text x="253" y="-1" class="txt-muted" font-size="10.5" font-weight="600">Kolhapur (relocating to Pune) • DKTE</text>
+      </g>
+    </g>
+  </g>
+</svg>

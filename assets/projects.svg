@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap');
+      
+      .bg { fill: #F6F1E7; }
+      .txt-black { fill: #171717; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .txt-serif { font-family: 'Playfair Display', Georgia, serif; }
+      .txt-terracotta { fill: #B9634C; }
+      .txt-muted { fill: #6B6355; font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+      .border-line { stroke: #D8CEBC; stroke-width: 1; }
+      .card-title { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 14.5px; font-weight: 800; }
+      .card-sub { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 500; fill: #6B6355; }
+    </style>
+
+    <linearGradient id="grad-card1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#141414" />
+      <stop offset="100%" stop-color="#22201E" />
+    </linearGradient>
+
+    <linearGradient id="grad-card2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ECE5D8" />
+      <stop offset="100%" stop-color="#E1D7C6" />
+    </linearGradient>
+
+    <linearGradient id="grad-card3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F3EFE6" />
+    </linearGradient>
+
+    <linearGradient id="grad-card4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#181818" />
+      <stop offset="100%" stop-color="#28221E" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="640" class="bg" />
+
+  <!-- Section Header -->
+  <g transform="translate(45, 45)">
+    <text x="0" y="0" class="txt-black txt-serif" font-size="28" font-weight="900" letter-spacing="1">SELECTED</text>
+    <text x="165" y="0" class="txt-terracotta txt-serif" font-size="28" font-style="italic" font-weight="700">PROJECTS</text>
+
+    <!-- Center Description -->
+    <text x="360" y="-8" class="txt-muted" font-size="12" font-weight="500">Genuine engineering projects verified from resume: GenAI RAG chatbots,</text>
+    <text x="360" y="8" class="txt-muted" font-size="12" font-weight="500">ML revenue forecasting platforms, digital lending services &amp; knowledge assistants.</text>
+
+    <!-- Right Header Action -->
+    <text x="910" y="-2" class="txt-terracotta" font-size="11" font-weight="800" letter-spacing="2" text-anchor="end">VIEW ALL REPOSITORIES</text>
+    <text x="914" y="-2" class="txt-terracotta" font-size="13">→</text>
+  </g>
+
+  <!-- Thin Rule -->
+  <line x1="45" y1="75" x2="955" y2="75" class="border-line" />
+
+  <!-- 4-CARD HORIZONTAL GRID (Cards at x: 45, 278, 511, 744; Width: 211) -->
+
+  <!-- CARD 01: NeuroNauts – AI Study Companion -->
+  <g transform="translate(45, 105)">
+    <rect width="211" height="400" rx="4" fill="url(#grad-card1)" stroke="#D8CEBC" stroke-width="1" />
+    
+    <!-- Abstract Visual: Vector Embeddings & RAG Search -->
+    <g transform="translate(0, 0)">
+      <rect width="211" height="210" fill="#111111" />
+      
+      <g stroke="#B9634C" stroke-width="1.2" opacity="0.6">
+        <line x1="35" y1="50" x2="105" y2="40" />
+        <line x1="35" y1="50" x2="105" y2="95" />
+        <line x1="35" y1="105" x2="105" y2="40" />
+        <line x1="35" y1="105" x2="105" y2="95" />
+        <line x1="35" y1="105" x2="105" y2="150" />
+        <line x1="35" y1="160" x2="105" y2="95" />
+        <line x1="35" y1="160" x2="105" y2="150" />
+        
+        <line x1="105" y1="40" x2="175" y2="70" />
+        <line x1="105" y1="95" x2="175" y2="70" />
+        <line x1="105" y1="95" x2="175" y2="125" />
+        <line x1="105" y1="150" x2="175" y2="125" />
+      </g>
+
+      <circle cx="35" cy="50" r="4.5" fill="#B9634C" />
+      <circle cx="35" cy="105" r="4.5" fill="#F6F1E7" />
+      <circle cx="35" cy="160" r="4.5" fill="#B9634C" />
+
+      <circle cx="105" cy="40" r="5" fill="#F6F1E7" />
+      <circle cx="105" cy="95" r="6.5" fill="#B9634C" />
+      <circle cx="105" cy="150" r="5" fill="#F6F1E7" />
+
+      <circle cx="175" cy="70" r="5" fill="#00D9FF" />
+      <circle cx="175" cy="125" r="5" fill="#B9634C" />
+
+      <!-- Diagram box representation -->
+      <rect x="25" y="155" width="60" height="25" rx="3" fill="#22201E" stroke="#B9634C" stroke-width="1" />
+      <text x="55" y="171" fill="#EDE4D3" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="700" text-anchor="middle">DIAGRAM</text>
+
+      <text x="18" y="196" fill="#EDE4D3" font-family="'Impact', sans-serif" font-size="14" letter-spacing="1.5">NEURONAUTS RAG</text>
+    </g>
+
+    <!-- Card Body Content -->
+    <g transform="translate(16, 230)">
+      <text x="0" y="0" class="txt-terracotta txt-serif" font-size="20" font-weight="900">01</text>
+      <text x="32" y="-1" class="txt-terracotta" font-size="9.5" font-weight="800" letter-spacing="1">TOP 6 / 400+ ACM WCE</text>
+      
+      <text x="0" y="24" fill="#FFFFFF" class="card-title">NeuroNauts RAG</text>
+      <text x="0" y="44" fill="#A8A297" font-size="11" font-family="'Plus Jakarta Sans', sans-serif" font-weight="400">PDF parsing (2,966 chunks) → Milvus semantic search → Groq LLaMA 3.3 with diagram retrieval.</text>
+      
+      <g transform="translate(0, 102)">
+        <text x="0" y="0" fill="#B9634C" font-size="9.5" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">Groq • Milvus • Streamlit</text>
+        <line x1="0" y1="15" x2="179" y2="15" stroke="#333333" stroke-width="1" />
+        <text x="0" y="32" fill="#EDE4D3" font-size="10" font-weight="700" letter-spacing="1">GITHUB &amp; DEMO ➔</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 02: Sales Analytics Platform -->
+  <g transform="translate(278, 105)">
+    <rect width="211" height="400" rx="4" fill="url(#grad-card2)" stroke="#D8CEBC" stroke-width="1" />
+    
+    <!-- Abstract Visual: Forecasting Graph & Report -->
+    <g transform="translate(0, 0)">
+      <rect width="211" height="210" fill="#E6DDD0" />
+      
+      <path d="M 25,140 Q 60,110 95,120 T 175,55" fill="none" stroke="#B9634C" stroke-width="2.5" />
+      <path d="M 25,150 Q 60,120 95,130 T 175,68" fill="none" stroke="#D8CEBC" stroke-width="1" stroke-dasharray="2 2" />
+      <path d="M 25,130 Q 60,100 95,110 T 175,42" fill="none" stroke="#D8CEBC" stroke-width="1" stroke-dasharray="2 2" />
+      
+      <circle cx="175" cy="55" r="5" fill="#171717" />
+      
+      <!-- Anomaly Alert Indicator -->
+      <circle cx="95" cy="120" r="4.5" fill="#B9634C" />
+      <text x="95" y="105" fill="#B9634C" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="800" text-anchor="middle">ANOMALY</text>
+
+      <rect x="25" y="25" width="161" height="20" rx="3" fill="#FFFFFF" />
+      <text x="35" y="39" fill="#171717" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="700">Ridge Forecast (90/95% Bands)</text>
+
+      <text x="18" y="196" fill="#171717" font-family="'Impact', sans-serif" font-size="14" letter-spacing="1.5">SALES ANALYTICS</text>
+    </g>
+
+    <!-- Card Body Content -->
+    <g transform="translate(16, 230)">
+      <text x="0" y="0" class="txt-terracotta txt-serif" font-size="20" font-weight="900">02</text>
+      <text x="32" y="-1" class="txt-terracotta" font-size="9.5" font-weight="800" letter-spacing="1">ML &amp; GENAI REPORTS</text>
+      
+      <text x="0" y="24" fill="#171717" class="card-title">Sales Analytics</text>
+      <text x="0" y="44" class="card-sub">30-day Ridge forecast, Isolation Forest anomaly detection, 15+ FastAPI endpoints &amp; React dashboard.</text>
+      
+      <g transform="translate(0, 102)">
+        <text x="0" y="0" fill="#B9634C" font-size="9.5" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">FastAPI • PostgreSQL • Docker</text>
+        <line x1="0" y1="15" x2="179" y2="15" stroke="#CFC4B2" stroke-width="1" />
+        <text x="0" y="32" fill="#171717" font-size="10" font-weight="700" letter-spacing="1">GITHUB &amp; DEMO ➔</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 03: LoanFlow Digital Lending -->
+  <g transform="translate(511, 105)">
+    <rect width="211" height="400" rx="4" fill="url(#grad-card3)" stroke="#D8CEBC" stroke-width="1" />
+    
+    <!-- Abstract Visual: Risk Bands & Policy Engine -->
+    <g transform="translate(0, 0)">
+      <rect width="211" height="210" fill="#FAF7F2" />
+      
+      <!-- Risk Scoring Gauge Blocks -->
+      <rect x="30" y="35" width="40" height="45" rx="3" fill="#B9634C" />
+      <text x="50" y="62" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">LOW</text>
+
+      <rect x="85" y="35" width="40" height="45" rx="3" fill="#E8DFD0" stroke="#B9634C" stroke-width="1" />
+      <text x="105" y="62" fill="#171717" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">MID</text>
+
+      <rect x="140" y="35" width="40" height="45" rx="3" fill="#171717" />
+      <text x="160" y="62" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="800" text-anchor="middle">HIGH</text>
+
+      <!-- Maker-Checker Gate -->
+      <rect x="30" y="100" width="150" height="32" rx="4" fill="#FFFFFF" stroke="#D8CEBC" stroke-width="1.2" />
+      <circle cx="48" cy="116" r="7" fill="#B9634C" />
+      <text x="48" y="119" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" font-weight="800" text-anchor="middle">✓</text>
+      <text x="65" y="120" fill="#171717" font-family="'Plus Jakarta Sans', sans-serif" font-size="8.5" font-weight="700">Maker-Checker Gate</text>
+
+      <text x="18" y="196" fill="#171717" font-family="'Impact', sans-serif" font-size="14" letter-spacing="1.5">LOANFLOW ENGINE</text>
+    </g>
+
+    <!-- Card Body Content -->
+    <g transform="translate(16, 230)">
+      <text x="0" y="0" class="txt-terracotta txt-serif" font-size="20" font-weight="900">03</text>
+      <text x="32" y="-1" class="txt-terracotta" font-size="9.5" font-weight="800" letter-spacing="1">ML RISK SCORING</text>
+      
+      <text x="0" y="24" fill="#171717" class="card-title">LoanFlow Lending</text>
+      <text x="0" y="44" class="card-sub">Credit risk bands, explainable policy rules engine, maker-checker gate &amp; KYC data masking.</text>
+      
+      <g transform="translate(0, 102)">
+        <text x="0" y="0" fill="#B9634C" font-size="9.5" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">FastAPI • Next.js • Supabase</text>
+        <line x1="0" y1="15" x2="179" y2="15" stroke="#D8CEBC" stroke-width="1" />
+        <text x="0" y="32" fill="#171717" font-size="10" font-weight="700" letter-spacing="1">LIVE DEMO ➔</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- CARD 04: Sunbeam RAG Chatbot (Internship) -->
+  <g transform="translate(744, 105)">
+    <rect width="211" height="400" rx="4" fill="url(#grad-card4)" stroke="#D8CEBC" stroke-width="1" />
+    
+    <!-- Abstract Visual: Knowledge Base Chunking & Groq LLM -->
+    <g transform="translate(0, 0)">
+      <rect width="211" height="210" fill="#161413" />
+      
+      <g stroke="#B9634C" stroke-width="1.2">
+        <line x1="105" y1="40" x2="65" y2="85" />
+        <line x1="105" y1="40" x2="145" y2="85" />
+        <line x1="65" y1="85" x2="45" y2="135" />
+        <line x1="65" y1="85" x2="85" y2="135" />
+        <line x1="145" y1="85" x2="125" y2="135" />
+        <line x1="145" y1="85" x2="165" y2="135" />
+      </g>
+
+      <circle cx="105" cy="40" r="7" fill="#B9634C" />
+      <text x="105" y="43" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="800" text-anchor="middle">GROQ</text>
+
+      <circle cx="65" cy="85" r="6" fill="#F6F1E7" />
+      <circle cx="145" cy="85" r="6" fill="#F6F1E7" />
+      
+      <circle cx="45" cy="135" r="5" fill="#B9634C" />
+      <circle cx="85" cy="135" r="5" fill="#FFA116" />
+      <circle cx="125" cy="135" r="5" fill="#F6F1E7" />
+      <circle cx="165" cy="135" r="5" fill="#B9634C" />
+
+      <text x="18" y="196" fill="#FFA116" font-family="'Impact', sans-serif" font-size="14" letter-spacing="1.5">SUNBEAM RAG BOT</text>
+    </g>
+
+    <!-- Card Body Content -->
+    <g transform="translate(16, 230)">
+      <text x="0" y="0" class="txt-terracotta txt-serif" font-size="20" font-weight="900">04</text>
+      <text x="32" y="-1" class="txt-terracotta" font-size="9.5" font-weight="800" letter-spacing="1">IIT–SUNBEAM GENAI</text>
+      
+      <text x="0" y="24" fill="#FFFFFF" class="card-title">Sunbeam RAG Bot</text>
+      <text x="0" y="44" fill="#A8A297" font-size="11" font-family="'Plus Jakarta Sans', sans-serif" font-weight="400">Knowledge base Q&amp;A: document chunking, ChromaDB embeddings, LangChain &amp; CI/CD.</text>
+      
+      <g transform="translate(0, 102)">
+        <text x="0" y="0" fill="#B9634C" font-size="9.5" font-weight="700" font-family="'Plus Jakarta Sans', sans-serif">LangChain • ChromaDB • FastAPI</text>
+        <line x1="0" y1="15" x2="179" y2="15" stroke="#333333" stroke-width="1" />
+        <text x="0" y="32" fill="#FFA116" font-size="10" font-weight="700" letter-spacing="1">EXPLORE INTERNSHIP ➔</text>
+      </g>
+    </g>
+  </g>
+</svg>
