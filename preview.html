@@ -354,11 +354,56 @@
       </a>
     </section>
 
-    <!-- Selected Projects 4-Card Grid -->
+    <!-- Selected Projects 4-Card Grid (uses <object> so SVG links are clickable) -->
     <section class="svg-section" id="projects-sec">
-      <a href="https://github.com/JACKSPARROW10-MAX?tab=repositories">
-        <img src="assets/projects.svg" alt="Selected Projects 4-Card Grid" id="img-projects" />
-      </a>
+      <object data="assets/projects.svg" type="image/svg+xml" id="obj-projects"
+              style="width:100%;display:block;border:none;margin:0;padding:0;"
+              aria-label="Selected Projects Grid">
+        <!-- Fallback if object fails -->
+        <img src="assets/projects.svg" alt="Selected Projects - NeuroNauts, Sales Analytics, LoanFlow, Sunbeam RAG" style="width:100%;display:block;" />
+      </object>
+      <!-- HTML clickable button overlay for project cards -->
+      <div id="project-links-overlay" style="
+        position:relative; margin-top:-44px; display:flex; justify-content:space-around;
+        padding: 0 4.5% 12px 4.5%; gap:1.5%;
+      ">
+        <a href="https://neuronauts.streamlit.app/" target="_blank" rel="noopener noreferrer"
+           title="NeuroNauts AI — Live Demo" style="
+          display:inline-block; width:18%; height:28px; border-radius:14px;
+          background:#262220; border:1px solid #B9634C;
+          text-align:center; line-height:28px;
+          font-family:'Plus Jakarta Sans',sans-serif; font-size:9px; font-weight:800;
+          color:#EDE4D3; letter-spacing:1px; text-decoration:none;
+          transition:opacity 0.2s;
+        ">VIEW LIVE DEMO ➔</a>
+        <a href="https://sales-analytics-platform-rosy.vercel.app/" target="_blank" rel="noopener noreferrer"
+           title="Sales Analytics Platform" style="
+          display:inline-block; width:18%; height:28px; border-radius:14px;
+          background:#171717;
+          text-align:center; line-height:28px;
+          font-family:'Plus Jakarta Sans',sans-serif; font-size:9px; font-weight:800;
+          color:#FFFFFF; letter-spacing:1px; text-decoration:none;
+          transition:opacity 0.2s;
+        ">VIEW PLATFORM ➔</a>
+        <a href="https://loan-flow-iota.vercel.app/" target="_blank" rel="noopener noreferrer"
+           title="LoanFlow Lending — Live Demo" style="
+          display:inline-block; width:18%; height:28px; border-radius:14px;
+          background:#B9634C;
+          text-align:center; line-height:28px;
+          font-family:'Plus Jakarta Sans',sans-serif; font-size:9px; font-weight:800;
+          color:#FFFFFF; letter-spacing:1px; text-decoration:none;
+          transition:opacity 0.2s;
+        ">VIEW LIVE DEMO ➔</a>
+        <a href="https://github.com/JACKSPARROW10-MAX/IIT-GENAI-PROJECT-SUNBEAM_CHATBOT" target="_blank" rel="noopener noreferrer"
+           title="Sunbeam RAG Bot — GitHub" style="
+          display:inline-block; width:18%; height:28px; border-radius:14px;
+          background:#262220; border:1px solid #FFA116;
+          text-align:center; line-height:28px;
+          font-family:'Plus Jakarta Sans',sans-serif; font-size:9px; font-weight:800;
+          color:#FFA116; letter-spacing:1px; text-decoration:none;
+          transition:opacity 0.2s;
+        ">VIEW ON GITHUB ➔</a>
+      </div>
     </section>
 
     <!-- Technical Skills Section -->

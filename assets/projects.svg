@@ -106,10 +106,12 @@
       </text>
 
       <!-- Clickable Link Button -->
-      <g transform="translate(0, 195)">
-        <rect width="180" height="28" rx="14" fill="#262220" stroke="#B9634C" stroke-width="1" />
-        <text x="90" y="18" fill="#EDE4D3" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" letter-spacing="1" text-anchor="middle">VIEW PROJECT ➔</text>
-      </g>
+      <a href="https://neuronauts.streamlit.app/" target="_blank">
+        <g transform="translate(0, 195)">
+          <rect width="180" height="28" rx="14" fill="#262220" stroke="#B9634C" stroke-width="1" />
+          <text x="90" y="18" fill="#EDE4D3" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" letter-spacing="1" text-anchor="middle">VIEW LIVE DEMO ➔</text>
+        </g>
+      </a>
     </g>
   </g>
 
@@ -155,10 +157,12 @@
         <tspan x="0" dy="15">PostgreSQL • React • Docker</tspan>
       </text>
 
-      <g transform="translate(0, 195)">
-        <rect width="180" height="28" rx="14" fill="#171717" />
-        <text x="90" y="18" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" letter-spacing="1" text-anchor="middle">VIEW PLATFORM ➔</text>
-      </g>
+      <a href="https://sales-analytics-platform-rosy.vercel.app/" target="_blank">
+        <g transform="translate(0, 195)">
+          <rect width="180" height="28" rx="14" fill="#171717" />
+          <text x="90" y="18" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" letter-spacing="1" text-anchor="middle">VIEW PLATFORM ➔</text>
+        </g>
+      </a>
     </g>
   </g>
 
@@ -208,10 +212,12 @@
         <tspan x="0" dy="15">Supabase • Docker • pytest</tspan>
       </text>
 
-      <g transform="translate(0, 195)">
-        <rect width="180" height="28" rx="14" fill="#B9634C" />
-        <text x="90" y="18" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" letter-spacing="1" text-anchor="middle">VIEW LIVE DEMO ➔</text>
-      </g>
+      <a href="https://loan-flow-iota.vercel.app/" target="_blank">
+        <g transform="translate(0, 195)">
+          <rect width="180" height="28" rx="14" fill="#B9634C" />
+          <text x="90" y="18" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" letter-spacing="1" text-anchor="middle">VIEW LIVE DEMO ➔</text>
+        </g>
+      </a>
     </g>
   </g>
 
@@ -264,10 +270,12 @@
         <tspan x="0" dy="15">FastAPI • Streamlit • CI/CD</tspan>
       </text>
 
-      <g transform="translate(0, 195)">
-        <rect width="180" height="28" rx="14" fill="#262220" stroke="#FFA116" stroke-width="1" />
-        <text x="90" y="18" fill="#FFA116" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" letter-spacing="1" text-anchor="middle">VIEW INTERNSHIP ➔</text>
-      </g>
+      <a href="https://github.com/JACKSPARROW10-MAX/IIT-GENAI-PROJECT-SUNBEAM_CHATBOT" target="_blank">
+        <g transform="translate(0, 195)">
+          <rect width="180" height="28" rx="14" fill="#262220" stroke="#FFA116" stroke-width="1" />
+          <text x="90" y="18" fill="#FFA116" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" font-weight="800" letter-spacing="1" text-anchor="middle">VIEW ON GITHUB ➔</text>
+        </g>
+      </a>
     </g>
   </g>
 

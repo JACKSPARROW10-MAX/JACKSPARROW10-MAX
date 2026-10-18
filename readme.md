@@ -3,7 +3,26 @@
 <!-- Hero Banner (Identity, Editorial Headline, Portrait) -->
 <a href="https://github.com/JACKSPARROW10-MAX"><img src="assets/hero.svg" alt="Prathamesh Salokhe - Portfolio Hero" width="100%" style="display: block; margin: 0;" /></a>
 <!-- Selected Projects Grid (NeuroNauts, Sales Analytics, LoanFlow, Sunbeam RAG) -->
-<a href="https://github.com/JACKSPARROW10-MAX?tab=repositories"><img src="assets/projects.svg" alt="Selected Projects - NeuroNauts, Sales Analytics, LoanFlow, Sunbeam RAG" width="100%" style="display: block; margin: 0;" /></a>
+<img src="assets/projects.svg" alt="Selected Projects - NeuroNauts, Sales Analytics, LoanFlow, Sunbeam RAG" width="100%" style="display: block; margin: 0;" />
+
+<!-- Project Live Links (SVG img tags cannot carry links on GitHub — use badges below) -->
+<p align="center">
+  <a href="https://neuronauts.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/NeuroNauts_AI-Live_Demo-B9634C?style=for-the-badge&logo=streamlit&logoColor=white" alt="NeuroNauts Live Demo" />
+  </a>
+  &nbsp;
+  <a href="https://sales-analytics-platform-rosy.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Sales_Analytics-Live_Platform-171717?style=for-the-badge&logo=vercel&logoColor=white" alt="Sales Analytics Platform" />
+  </a>
+  &nbsp;
+  <a href="https://loan-flow-iota.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/LoanFlow-Live_Demo-B9634C?style=for-the-badge&logo=vercel&logoColor=white" alt="LoanFlow Live Demo" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/JACKSPARROW10-MAX/IIT-GENAI-PROJECT-SUNBEAM_CHATBOT" target="_blank">
+    <img src="https://img.shields.io/badge/Sunbeam_RAG_Bot-View_on_GitHub-171717?style=for-the-badge&logo=github&logoColor=white" alt="Sunbeam RAG Bot GitHub" />
+  </a>
+</p>
 <!-- Technical Skills Section (Authoritative verbatim from Resume) -->
 <img src="assets/skills.svg" alt="Technical Skills - Generative AI & LLMs, Vector & Databases, ML & Data, Languages, Backend & APIs, Cloud & DevOps" width="100%" style="display: block; margin: 0;" />
 <!-- Current Focus & Connect Section -->
